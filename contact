@@ -1,0 +1,82 @@
+<html>
+        <head>
+                <title> contact me </title>
+		 <script>
+                        window.onfocus = function() { document.title = "contact me";}
+                        window.onblur = function() { document.title = "come back and talk :(";}
+                </script>
+
+        <link rel="stylesheet" href="stylesheet.css">
+        </head>
+        <body>
+                <div class="content">
+                        <nav>
+                                <ul class="nav-area">
+                                        <li><a href="https://www.cs.mcgill.ca/~sshind7/">Home</a></li>
+                                        <li><a href="about">About</a></li>
+                                        <li><a href="resume">Resume</a></li>
+                                        <li><a href="skills">Skills</a></li>
+                                        <li><a href="contact">Contact</a></li>
+
+                                </ul>
+				<style>
+                                        padding = 35px 0 0 0;
+                                </style>
+                        </nav>
+                </div>
+		<ul class="lightrope">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+			<article class="subpage-article">
+                        	<h1> Contact me </h1>
+			</article>
+			<article class="article-box" style="display:block">
+                		<ul class="skill-list">
+                        		<li><strong>LINKEDIN</strong>https://www.linkedin.com/in/sneha-shinde350/                                                                                                                                            .              </li>
+                                	<li><strong>GITHUB</strong>https://github.com/xosneha                                                  .        </li>
+                                	<li><strong>EMAIL</strong>sneha.shinde@mail.mcgill.ca </li>
+				</ul>
+			</article>
+        </body>
+</html>

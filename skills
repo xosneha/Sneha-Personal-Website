@@ -1,0 +1,84 @@
+<html>
+        <head>
+                <title> sneha's skills</title>
+		<script>
+                        window.onfocus = function() { document.title = "sneha's skills";}
+                        window.onblur = function() { document.title = "come back!";}
+                </script>
+        	<link rel="stylesheet" href="stylesheet.css">
+        </head>
+        <body>
+                <div class="content">
+                        <nav>
+                                <ul class="nav-area">
+                                        <li><a href="https://www.cs.mcgill.ca/~sshind7/">Home</a></li>
+                                        <li><a href="about">About</a></li>
+                                        <li><a href="resume">Resume</a></li>
+                                        <li><a href="skills">Skills</a></li>
+                                        <li><a href="contact">Contact</a></li>
+
+                                </ul>
+				<style>
+					padding = 35px 0 0 0;
+				</style>
+			</nav>
+		</div>
+		<ul class="lightrope">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+			<article class="subpage-article">
+				<h1> My Skills </h1>
+			</article>
+			<article class="article-box" style="display:block">
+				<ul class="skill-list">
+					<li><strong>PYTHON:</strong> I currently work as a lab helper at the Early Drug Discovery Unit at the Neuro, where I focus on different preprocessing techniques for a machine learning cell classifier written in Python.  </li>
+					<li><strong>MATLAB and R:</strong> I have been a research assistant at a couple of labs in the past, where I learned MATLAB to conduct visual and auditory experiments. </li>
+					<li><strong>Java, C, and R:</strong> I have taken courses in these languages and am knowledgeable in them.</li>
+					<li><strong>HTML/CSS:</strong> I am using this website to develop my HTML/CSS skills! </li>
+					<li><strong>SQL:</strong> For personal development, I have self-studied SQL.</li>
+				</ul>
+			</article> 
+		
+        </body>
+</html>

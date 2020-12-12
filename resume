@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title> sneha's resume </title>
+		<script>
+                        window.onfocus = function() { document.title = "sneha's resume";}
+                        window.onblur = function() { document.title = "come back!";}
+                </script>
+		<style>
+			h1 {position: absolute; text-align: center; margin: auto; color:indigo;}
+		</style>
+
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<div class="content">
+			<nav>
+				<ul class="nav-area">
+					<li><a href="https://www.cs.mcgill.ca/~sshind7/">Home</a></li>
+					<li><a href="about">About</a></li>
+					<li><a href="resume">Resume</a></li>
+					<li><a href="skills">Skills</a></li>
+					<li><a href="contact">Contact</a></li>
+
+				</ul>
+			</nav>
+		</div>
+		<ul class="lightrope">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+
+		<article class="subpage-article">
+			<h1> My Resume </h1>
+		</article>
+		<section>
+         		<iframe src="./assets/sneha_shinde_resume.pdf"></iframe>
+        	</section>
+	</body>
+</html>
