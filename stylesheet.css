@@ -1,7 +1,7 @@
 :root { /* for color scheme changes */
-	--bg-color: #43AA8B;
+	--bg-color: #0E1C30;
 	--title-color: #9E2A2B;
-	--text-color: #254441;
+	--textt-color: #254441;
 	--navbar-color: #F3EFF5;
 	--navbar-hover: #254441; 
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 { 
-	color: var(--text-color);
+	color: var(--textt-color);
 	font-size: 1.5em;
 }
 
@@ -47,7 +47,7 @@ h2 {
         font-size: 1.5em;
         text-align: left;
         list-style-type: none;
-        color: var(--title-text); 
+        color: #254441; 
 
 }
 
@@ -185,7 +185,7 @@ strong {
 	font-weight: 900;
 	color: var(--title-color);
 }
-	
+
 .lightrope {
 	 /*display: flex;*/
 	 white-space: nowrap;
@@ -270,35 +270,5 @@ strong {
 		 background: #911e09;
 		 box-shadow: 0px 4.6666666667px 24px 3px #911e09;
 	}
-}
-
-.nav-area-contact {
-        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-	flex-direction: column;
-	flex:1;
-        justify-content: flex-end;
-}
-
-.nav-area-contact li{
-    display: inline-block;
-    style="margin-top: auto;"
-
-}
-.nav-area-contact li a {
-        color: var(--navbar-color);
-        text-decoration: none;
-        padding: 5px 20px;
-        font-family: Lucida Console, Monaco, monospace;
-        font-size: 16px;
-        text-transform: uppercase;
-}
-
-.nav-area-contact li a:hover{
-        background: var(--navbar-hover);
 }
 
