@@ -1,0 +1,17 @@
+<head>
+	<title>
+	sneha's resume
+	</title>
+	<link rel="stylesheet" href="assets/stylesheet.css" />
+
+</head>
+<body>
+<h1>Shell/Python scripts</h2>
+<h2> AUTOMATE BUILD [BASH] : I am currently working on an automated script that builds CellProfiler headless in a Miniconda virtual environment in a remote computing cluster for a particular user.  This speeds up the build process, which usually takes around 1-2 hours and otherwise has to be looked at by the user constantly. It also makes running CellProfiler more accessible to members of the lab that have little or no experience with Linux. </h2>
+
+<h2> PRE-PROCESSING IMAGES [BASH / PYTHON] : I have used shell-scripting in order to pre-process images for them to be run through existing machine learning frameworks.  This increases efficiency compared to running data manipulation pipelines on a local computer. </h2>
+
+<h2> SUBMITTING JOBS TO A REMOTE CLUSTER [BASH / PYTHON] : I have used shell-scripting in order to efficiently processlarge-scale image sets within the remote cluster via submitting them as "jobs". I am also working on using Python-scripting and shell-scripting to manipulate the output. This increases efficiency and storage space on local lab computers. </h2>
+
+<h3> Relevant coursework: COMP 206, Introduction to Software Systems
+</body>    

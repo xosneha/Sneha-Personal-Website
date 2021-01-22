@@ -1,0 +1,15 @@
+<head>
+	<title>
+	sneha's resume
+	</title>
+	<link rel="stylesheet" href="assets/stylesheet.css" />
+
+</head>
+<body>
+<h1>Databases</h2>
+<h2> MODELLING [ER DIAGRAM / RELATIONAL DIAGRAM] : As I am building the database from the ground-up, I started with a simple E/R diagram in order to analyze what traits images would need to be stored and searchable by the database. This taught me how to build a suitable and efficient E/R diagram. I also had to collaborate with my supervisor in the lab in order to make sure I was making a useful database, which taught me more about how to communicate technical concepts to non-technical people.  </h2>
+
+<h2> IMPLEMENTATION [SQL]: To implement the database, which I am currently working on, I will have to use a virtual environment as well as SQL. </h2>
+
+<h3> Relevant coursework: COMP 421, Database Systems
+</body>    

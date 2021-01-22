@@ -1,0 +1,18 @@
+<head>
+	<title>
+	sneha's resume
+	</title>
+	<link rel="stylesheet" href="assets/stylesheet.css" />
+
+</head>
+<body>
+<h1>Machine Learning</h2>
+<h2> @ THE MNI [PYTHON] : At this job, I work on a project that aims to make a neural network to classify diseased neurons based on staining images.  This network is a convolutional neural network made in the Keras library. This project has made me develop an intimate knowledge of ML networks, specifically their implementation to be applied in other fields </h2>
+
+<h2> INDEPENDENT STUDY COURSE [PYTHON] : This semester, though I am only in my second year at McGill, I am taking a graduate-level machine learning applications course called "Applications of Machine Learning to Climate Change" as an independent study.  This course has and will continue to teach me more about how machine learning can be applied to different fields.  </h2>
+
+<h2> SELF-STUDY [PYTHON] : I self-studied Computational Neuroscience under the guidance of a professor at a local university in the summer of 2017.  I have also self-studied ML techniques within Python, specifically using the scikit-learn and tensorflow packages.  
+
+<h3> Relevant coursework: COMP 424, Artificial Intelligence; COMP 480, Independent Study in Computer Science (Topic: Applications of Machine Learning to Climate Change)
+
+</body>    

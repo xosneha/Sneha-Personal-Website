@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+
+  <title>
+    sneha's interactive resume
+  </title>
+
+	<script>
+		window.onfocus = function() { document.title = "interactive resume";}
+		window.onblur = function() { document.title = "come back!";}
+	</script>
+	 <link rel="shortcut icon" href="./assets/Cat-icon.png" type="image/x-icon">
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="assets/normalizetrial.css">
+  <link rel="stylesheet" href="assets/stylesheet.css"> 
+  <meta name="theme-color" content="#fafafa">
+  <script type="text/javascript" src="js/canvas.js" async></script>
+</head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/cardIR.css">
+  <link rel="stylesheet" href="assets/stylesIR.css">
+  <style>
+a:link {
+  color: #6BAB90;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #5E4C5A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+  </head>
+<canvas>
+</canvas>
+<body>
+	<nav>
+		<ul class="nav-area">
+		<li><a href="https://www.cs.mcgill.ca/~sshind7/">Home</a></li>
+		<li><a href="about">About</a></li> 
+		<li><a href="resume">Resume</a></li>
+		<li><a href="interactiveresume">Interactive Resume</a></li>
+		</ul>
+	</nav>
+<canvas></canvas>
+<article class="subpage-article">
+     <h1>Interactive Resume</h1>
+</article>
+
+<!-- Interactive resume template from @TheBigSasha on GitHub, https://github.com/TheBigSasha/sasharesume -->
+
+<main class="main">
+<a href="shellscriptinfo">
+  <section class="section">
+    <h2>Shell- and Python- scripting for image-processing automation </h2>
+    <p> I work on shell-scripting pipelines to automate large-scale image processing on a remote computing cluster. This has included both building the image processing software used in a virtual environment and automating the build process to make it more accessible. I have also written shell-scripts in order to submit a job to the computing cluster, and shell- and Python- scripts to manipulate outputs once they have been successfully processed.   </p>
+</a>
+<img class="section-img" src="assets/cpstuff.png">
+  </section>
+<section class="section">
+	<a href="dbinfo">
+	<h2>Database implementation for easy image retrieval</h2>
+    <p>I am currently in the process of implementing a database in a virtual environment in a remote cluster for image organization and retrieval. This project will require me to model the database implementation and translate the implementation via using SQL and a virtual environment. </p>
+	</a>
+    <img class="section-img" src="assets/dbim.png">
+  </section>
+<a href="mlinfo">
+  <section class="section">
+    <h2>Machine learning expertise</h2>
+    <p>I have extensive experience in machine learning from self-learning, my current job, and my fornal studies.  At my job, I work with a convolutional neural network and have developed an intimate knowledge of machine learning networks.  </p>
+</a>
+  </section>
+  <section class="section bigbottom">
+    <h2>Personal website project</h2>
+    <p>This website was intended as a way to help me improve my front-end skills; it was developed using HTML, CSS, and JavaScript in a remote environment</p>
+  </section>
+  <section class="section bigtitle">
+    <h2 class="bigtitle-title">JetBrains Theme: Very Pink!</h2>
+    <p>A pink theme for JetBrains IDEs, mainly IntelliJ.</p>
+    <a href="https://github.com/xosneha/pink_theme" class="info-link">GitHub repository</a>
+  </section>
+
+</main>
