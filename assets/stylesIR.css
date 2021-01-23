@@ -16,6 +16,7 @@
 
 body {
     color: #6BAB90;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 main {
@@ -119,6 +120,13 @@ section {
     background-clip: text;
 }
 
+.nohover h2 {
+	cursor: default;
+}
+
+.nohover h2:hover {
+	color: green;
+}
 .section img {
     width: 100%;
     display: inline;

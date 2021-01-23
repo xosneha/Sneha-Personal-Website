@@ -34,5 +34,11 @@
 		<div class="about-pic">
 			<img src="./assets/IMG_2490.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 		</div>
+		<footer>
+                        <ul class="footer-list">
+
+                                <li><a href="https://github.com/xosneha">GitHub Profile</a></li> <li>sneha.shinde@mail.mcgill.ca</li> <li><a href="https://www.linkedin.com/feed/">LinkedIn</li>
+                        </ul>
+                </footer>
         </body>
 </html>

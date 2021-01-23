@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 @import url("https://use.typekit.net/kyz0ydh.css");
-
-html, body, div, span, applet, object, iframe,
+/*
+html, body,  span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -20,17 +20,18 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+}*/
+/* HTML5 display-role reset for older browsers*/ 
+aside, details, figcaption, figure,
+footer, header, hgroup, menu, section {
 	display: block;
 }
+
 body {
     line-height: 1;
     padding: 0;
     margin: 0;
-    font-family: bebas-neue-pro, sans-serif; //TOCHANGE
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #6BAB90;
 }
 ol, ul {
@@ -418,4 +419,8 @@ a {
     -webkit-box-decoration-break: clone;
     background-clip: text;
     border-color: white;
+}
 
+.nohover h2:hover {
+        color: green;
+}

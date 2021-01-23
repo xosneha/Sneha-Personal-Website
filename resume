@@ -29,5 +29,11 @@
 		<section>
          		<iframe src="./assets/sneha_shinde_resume.pdf"></iframe>
         	</section>
+		<footer>
+                        <ul class="footer-list">
+
+                                <li><a href="https://github.com/xosneha">GitHub Profile</a></li> <li>sneha.shinde@mail.mcgill.ca</li> <li><a href="https://www.linkedin.com/feed/">LinkedIn</li>
+                        </ul>
+                </footer>
 	</body>
 </html>

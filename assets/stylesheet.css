@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 :root { /* for color scheme changes */
 	--bg-color: #EFD9CE;
 	--title-color: #5E4C5A;
@@ -7,8 +8,9 @@
 }
 
 body {
-	font-family: Lucida Console, Monaco, monospace;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	background-color: var(--bg-color);
+	margin-top: -2px;
 }
 
 h1 {
@@ -19,15 +21,15 @@ h1 {
 
 h2 { 
 	color: var(--textt-color);
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .nav-area li a {
         color: var(--navbar-color);
         text-decoration: none;
         padding: 5px 20px;
-        font-family: Lucida Console, Monaco, monospace;
-        font-size: 16px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 23px;
         text-transform: uppercase;
 }
 
@@ -116,10 +118,16 @@ h2 {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	width: 100%;
+	/*width: 100%;*/
 	height: 5em;
 	font-size: 2em;
 }
+
+.article-box {
+	margin-left:100px;
+	margin-right:100px;
+}
+
 .about-pic {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -webkit-flex;
@@ -174,21 +182,55 @@ strong {
 }
 
 footer {
-   position: fixed;
+  position: fixed;
   left: 0;
+  color: var(--navbar-color);
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
   text-align: center;
 }
 
-.footer-list ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  style="margin-top: auto;
+.footer-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	list-style-type: none;
+	background-color: var(--bg-color);
+	height: 50px;
+	margin: 0px;
+	padding:0px;
+	align-items: center;
 }
+.footer-list li {
+	width: 350px;	
+}
+
+.footer-list ul {
+}
+a:link {
+	  color: var(--navbar-color);
+	  text-decoration: none;
+  }
+
+a:visited {
+	  color: var(--navbar-color);
+    }
+
+a:hover {
+	  color: var(--navbar-color);
+      }
+
+a:active {
+	  color: var(--navbar-color);
+  }	  
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+}
+
+

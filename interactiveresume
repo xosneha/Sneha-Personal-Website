@@ -12,48 +12,34 @@
 		window.onblur = function() { document.title = "come back!";}
 	</script>
 	 <link rel="shortcut icon" href="./assets/Cat-icon.png" type="image/x-icon">
-
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="stylesheet" href="assets/normalizetrial.css">
   <link rel="stylesheet" href="assets/stylesheet.css"> 
-  <meta name="theme-color" content="#fafafa">
-  <script type="text/javascript" src="js/canvas.js" async></script>
-</head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/cardIR.css">
   <link rel="stylesheet" href="assets/stylesIR.css">
+  <script type="text/javascript" src="js/canvas.js" async></script>
+</head>
   <style>
-a:link {
-  color: #6BAB90;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: #5E4C5A;
-  background-color: transparent;
-  text-decoration: underline;
-}
+	a:link {
+	  color: #6BAB90;
+	  background-color: transparent;
+	  text-decoration: none;
+	}
+	a:hover {
+	  color: #5E4C5A;
+	  background-color: transparent;
+	}
 </style>
   </head>
-<canvas>
-</canvas>
 <body>
-	<nav>
-		<ul class="nav-area">
-		<li><a href="https://www.cs.mcgill.ca/~sshind7/">Home</a></li>
-		<li><a href="about">About</a></li> 
-		<li><a href="resume">Resume</a></li>
-		<li><a href="interactiveresume">Interactive Resume</a></li>
-		</ul>
-	</nav>
-<canvas></canvas>
+	<div class="content">
+		<nav>
+			<ul class="nav-area">
+			<li><a href="https://www.cs.mcgill.ca/~sshind7/">Home</a></li>
+			<li><a href="about">About</a></li> 
+			<li><a href="resume">Resume</a></li>
+			<li><a href="interactiveresume">Interactive Resume</a></li>
+			</ul>
+		</nav>
+	</div>
 <article class="subpage-article">
      <h1>Interactive Resume</h1>
 </article>
@@ -81,14 +67,19 @@ a:hover {
     <p>I have extensive experience in machine learning from self-learning, my current job, and my fornal studies.  At my job, I work with a convolutional neural network and have developed an intimate knowledge of machine learning networks.  </p>
 </a>
   </section>
-  <section class="section bigbottom">
+  <section class="section bigbottom nohover">
     <h2>Personal website project</h2>
     <p>This website was intended as a way to help me improve my front-end skills; it was developed using HTML, CSS, and JavaScript in a remote environment</p>
   </section>
-  <section class="section bigtitle">
+  <section class="section bigtitle nohover">
     <h2 class="bigtitle-title">JetBrains Theme: Very Pink!</h2>
     <p>A pink theme for JetBrains IDEs, mainly IntelliJ.</p>
     <a href="https://github.com/xosneha/pink_theme" class="info-link">GitHub repository</a>
   </section>
+  <footer>
+	                          <ul class="footer-list">
 
+					                                  <li><a href="https://github.com/xosneha">GitHub Profile</a></li> <li>sneha.shinde@mail.mcgill.ca</li> <li><a href="https://www.linkedin.com/feed/">LinkedIn</li>
+									                          </ul>
+												                  </footer>
 </main>
